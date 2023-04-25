@@ -1,0 +1,110 @@
+/* Styles for index.html */
+@font-face {
+    font-family: khFont;
+    src: url(Kingdom_Hearts_Font.ttf)
+}
+
+body, p {
+    text-align: center;
+}
+
+h1, h2, h3{
+    color: #e2b260;
+}
+
+hr {
+    width: 50%;
+    border-top: 2px solid #e2b260;
+}
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+ul {
+    display: inline-block;
+    text-align: left;
+}
+
+ol {
+    list-style-position: inside;
+}
+/* Styles for sea salt ice cream file */
+.sea-salt-body {
+    background-color: #6ec3d8;
+}
+
+.sea-salt-body a, .sea-salt-heading {
+    font-family: khFont;
+}
+
+
+.sea-salt-body a {
+    color: white;
+    font-size: 2em;
+}
+
+.sea-salt-heading {
+    color: #b1f0f9;
+    font-size: 3em;
+}
+
+/* Styles for cosmic food file */
+.kitty-container {
+    background-image: url("images/hello-kitty-wallpaper.jpg.webp");
+    background-repeat: no-repeat;
+    height: 100%;
+    background-position: center;
+    background-size: cover;
+}
+
+.kitty-container h1 {
+    font-size: 3em;
+}
+
+.kitty-container{
+    animation: textcolorchange 7s ease-in-out infinite;
+    animation-play-state: running;
+}
+
+.hello-kitty-img {
+    width: 40%;
+    height: auto;
+}
+
+.kitty-heading {
+    color: #cd6176;
+    animation: textcolorchange 7s ease-in-out infinite;
+    animation-play-state: running;
+}
+
+@keyframes textcolorchange {
+    0% {
+        color: #ff0000;
+      }
+      14% {
+        color: #ffa500;
+      }
+      28% {
+        color: #ffff00;
+      }
+      42% {
+        color: #008000;
+      }
+      56% {
+        color: #0000ff;
+      }
+      70% {
+        color: #4b0082;
+      }
+      84% {
+        color: #ee82ee;
+      }
+      100% {
+        color: #ff0000;
+      }
+}
+
